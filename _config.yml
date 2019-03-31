@@ -14,18 +14,18 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-linkedin
-      link: "https://linkedin.com/mitchbeebe"
     - icon: fa-github
       link: "https://github.com/mitchbeebe"
+    - icon: fa-linkedin
+      link: "https://linkedin.com/mitchbeebe"
+    - icon: fa-twitter
+      link: "https://twitter.com/mitchbeebe"
 
 urls:
     - text: About Me
       url: /about/
     - text: My Projects
       url: /projects/
-    - text: XML Feed
-      url: /feed.xml
 
 url: "https://mitchbeebe.github.io"
 baseurl: ""
@@ -33,7 +33,7 @@ paginate: 20
 per_page: 20
 paginate_path: "/page/:num/"
 markdown: kramdown
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-gist
 
