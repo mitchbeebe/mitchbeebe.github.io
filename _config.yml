@@ -1,10 +1,8 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
-disqus_shortname: stackproblems
-google_analytics: UA-XXXXXXXX-Y
+title: Mitch's Blog
+description: My Personal Website
+author: Mitch Beebe
+github: https://github.com/mitchbeebe
+about: I'm a Data Scientist and passionate R and Python programmer. This is my personal site where I may write the occasional blog post about data science, sports, or something I find funny.
 avatar_url: /static/img/avatar.jpg
 
 enableTags: true
@@ -16,20 +14,10 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-twitter
-      link: "#"
     - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
+      link: "https://linkedin.com/mitchbeebe"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
-
-share:
-  twitter_username: github.io
-  fb_appid: 1749788565247320
+      link: "https://github.com/mitchbeebe"
 
 urls:
     - text: About Me
@@ -39,7 +27,7 @@ urls:
     - text: XML Feed
       url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://mitchbeebe.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20

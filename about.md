@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django. Now, I am doing more on backend.
+I'm a Data Scientist and passionate R and Python user at JPMorgan Chase.
 
-email: agus[at]python.web.id
+email: beebe.mitch[at]gmail[dot]com
