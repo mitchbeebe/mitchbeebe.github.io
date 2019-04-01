@@ -24,7 +24,7 @@ social:
 urls:
     - text: Blog
       url: /blog/
-    - text: My Projects
+    - text: Projects
       url: /projects/
 
 url: "https://mitchbeebe.github.io"
