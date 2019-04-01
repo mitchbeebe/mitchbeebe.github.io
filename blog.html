@@ -1,32 +1,30 @@
 ---
 layout: default
+title: Blog
 ---
 
 <div id="home">
   <h1>{{ site.title }}</h1>
   <hr />
-
-  <p>This is my website.</p>
-
-  <!--
+  <p>These are my posts.</p>
   <ol class="posts">
-    {% for post in paginator.posts %}
+    {% for post in site.posts %}
       <li><a href="{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>
     {% endfor %}
   </ol>
 
-  {% if paginator.total_pages > 1 %}
+  {% if site.total_pages > 1 %}
     <ul class="pagination pagination-sm">
-      {% if paginator.previous_page %}
-        <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
+      {% if site.previous_page %}
+        <li><a href="{{ site.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
       {% else %}
         <li class="disabled"><span aria-hidden="true">&laquo;</span></li>
       {% endif %}
 
       <li><a href="/">First</a></li>
 
-      {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
+      {% for page in (1..site.total_pages) %}
+        {% if page == site.page %}
           <li class="active"><a>{{ page }}<span class="sr-only">(current)</span></a></li>
         {% elsif page == 1 %}
           <li><a href="/">{{ page }}</a></li>
@@ -35,14 +33,13 @@ layout: default
         {% endif %}
       {% endfor %}
 
-      <li><a href="/page/{{ paginator.total_pages }}/">Last</a></li>
+      <li><a href="/page/{{ site.total_pages }}/">Last</a></li>
 
-      {% if paginator.next_page %}
-        <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>
+      {% if site.next_page %}
+        <li><a href="{{ site.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>
       {% else %}
         <li class="disabled"><span>&raquo;</span></li>
       {% endif %}
     </ul>
   {% endif %}
-  -->
-</div><!-- end #home -->
+</div>

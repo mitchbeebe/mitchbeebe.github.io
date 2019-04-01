@@ -2,7 +2,7 @@ title: Mitch's Blog
 description: My Personal Website
 author: Mitch Beebe
 github: https://github.com/mitchbeebe
-about: I'm a Data Scientist and passionate R and Python programmer. This is my personal site where I may write the occasional blog post about data science, sports, or something I find funny.
+about: Data Scientist at JPMorgan Chase
 avatar_url: /static/img/avatar.jpg
 
 enableTags: true
@@ -22,8 +22,8 @@ social:
       link: "https://twitter.com/mitchbeebe"
 
 urls:
-    - text: About Me
-      url: /about/
+    - text: Blog
+      url: /blog/
     - text: My Projects
       url: /projects/
 
@@ -31,7 +31,7 @@ url: "https://mitchbeebe.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
-paginate_path: "/page/:num/"
+paginate_path: "/blog/page/:num/"
 markdown: kramdown
 plugins:
   - jekyll-paginate
